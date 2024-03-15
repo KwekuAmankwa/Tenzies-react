@@ -10,6 +10,7 @@
             }
         ],
     "theme_color":"#0B2434",
+    "start_url": "../index.html",
     "background_color":"#0B2434",
     "display":"standalone"
 }
