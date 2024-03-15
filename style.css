@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+   background: #0b2434;
+}
+
+body{
+    margin: 0;
+    font-family: Karla;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    max-height: 500px;
+    max-width: 500px;
+    margin: 10% auto;
+    background: #0B2434;
+    padding: 15px;
+}
+
+.game-box{
+    width: 100%;
+    margin: 35px auto;
+    background: #F5F5F5;
+    display: flex;
+    border-radius: 10px;
+}
+
+.play-space{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.game-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.name{
+    margin-top: 0;
+}
+
+.instructions{
+    font-family: Inter;
+    font-size: 13px;
+    margin: 0;
+}
+
+.game-dice{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+}
+
+.dice-roll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.die-num{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.game-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.btn-roll{
+    font-family: 'Karla';
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    padding: 10px 30px;
+    background: #5035FF;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+}
+
+.btn-roll:active{
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
